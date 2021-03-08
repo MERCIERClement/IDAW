@@ -7,3 +7,20 @@ p {
     font-size: 20px;
     font-style:italic;
 }
+.container {
+    display: flex;
+}
+.inline-container {
+    display: inline-flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.element-flexible {
+    flex : 1 1 50px;
+}
+.menu {
+    margin:50px;
+}
