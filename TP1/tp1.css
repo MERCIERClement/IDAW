@@ -24,3 +24,6 @@ p {
 .menu {
     margin:50px;
 }
+#currentpage {
+    color:yellow;
+}
