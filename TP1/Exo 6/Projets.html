@@ -3,21 +3,30 @@
     <head>
         <title>JobTinder - Projets</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="tp1.css">
+        <link rel="stylesheet" href="bootstrap.css">
     </head>
     <body>
         <h1>Page des différents projets</h1>
         <p>Chez JobTinder, vous "matchez" avec votre futur employé</p>
         <div class=container>
-            <nav class="menu">
-                <ul>
-                <li><a href="Accueil.html">Accueil</a></li>
-                <li><a href="CV.html">CV</a></li>
-                <li><a id="currentpage" href="Projets.html">Projets</a></li>
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+                <div class="container">
+                    <a class="navbar-brand js-scroll-trigger" href="#page-top">Accueil</a>
+                    <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        Menu
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="Accueil.html"">Accueil</a></li>
+                            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="CV.html">CV</a></li>
+                            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="Projets.html">Projets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>    
             <div class=element-flexible>
-                <h2>Réhabilitation du crapauduc de la Scarpe</h2> 
+                <h2><br>Réhabilitation du crapauduc de la Scarpe</h2> 
                 <p>Oubliez Des Carpes Dans La Scarpe, maintenant gloire aux crapauds</p>   
                 <h2>Travaux du bar de la MEUD</h2>
                 <p>On s'arrêtera jamais cheh</p>

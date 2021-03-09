@@ -6,6 +6,7 @@ p {
     color:darkcyan;
     font-size: 20px;
     font-style:italic;
+    margin : 20px;
 }
 .container {
     display: flex;
