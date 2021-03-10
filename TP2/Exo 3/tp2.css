@@ -1,3 +1,10 @@
+*{
+    margin:0;
+    padding:0;
+}
+body,html{
+    height:100%;
+}
 body {
     background-color: burlywood;
 }
@@ -8,7 +15,10 @@ p {
     font-style:italic;
 }
 .container {
-    display: flex;
+    max-width: 1080px;
+    min-height: 100%;
+    margin: 0 auto;
+    position: relative;
 }
 .inline-container {
     display: inline-flex;
@@ -26,4 +36,16 @@ p {
 }
 #currentpage {
     color:yellow;
+}
+footer{
+    background:#ccc;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    height:50px;
+    text-align: center;
+}
+.flottant {
+    float:right;
 }

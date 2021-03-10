@@ -1,8 +1,8 @@
 <?php
     require_once("template_header.php");
 ?>     
-    <h1>Page d'accueil</h1>
-        <p>Chez JobTinder, vous "matchez" avec votre futur employé</p>
+    <h1>Mon profil</h1>
+        <p>Etudiant ingénieur informatique polyvalent / Appétance pour la gestion de projet</p>
         <div class="container">
             <nav class="menu">
                 <ul>
@@ -16,5 +16,6 @@
                 <p>Faites attention à la rue impaire</p>   
                 </div>
         </div>
-    </body>
-</html>
+    <?php
+        require_once("template_footer.php");
+?>

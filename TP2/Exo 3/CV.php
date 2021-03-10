@@ -1,8 +1,7 @@
 <?php
     require_once("template_header.php");
 ?>  
-        <h1>Page des différents CV</h1>
-        <p>Chez JobTinder, vous "matchez" avec votre futur employé</p>
+        <h1>Mon CV</h1>
         <div class="container">
             <nav class="menu">
                 <ul>
@@ -12,10 +11,9 @@
                 </ul>
             </nav>    
             <div class="element-flexible">
-                <h2>Martin Tin</h2> 
-                <p>Bonjour je m'appelle Martin Tin et je suis spécialisé en houpette rousse</p>   
-                <h2>Henry Yette</h2>
-                <p>Bonjour je suis le spécialiste des pâtés artisanaux depuis 1987</p>
+                <h2>Parcours scolaire</h2> 
+                <h3>Lycée Henri Wallon</h3>   
+                <h3>Lycée Fénélon</h2>
                 </div>
         </div>
     </body>
