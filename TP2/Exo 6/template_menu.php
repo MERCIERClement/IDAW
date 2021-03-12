@@ -1,9 +1,9 @@
 <?php
     function renderMenuToHTML($currentPageId) {
         $mymenu = array(
-            "accueil" => array("Accueil"),
-            "cv" => array("CV"),
-            "hobbies" => array("Hobbies")
+            "accueil.php?page=accueil" => array("Accueil"),
+            "cv.php?page=cv" => array("CV"),
+            "hobbies.php?page=hobbies" => array("Hobbies")
         );
         echo 
         "<nav class='menu'>

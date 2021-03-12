@@ -4,7 +4,7 @@
         <h1>Mon CV</h1>
         <?php
             require_once("template_menu.php");
-            renderMenuToHTML("accueil");   
+            renderMenuToHTML("cv");   
             ?>
             <div class="element-flexible">
                 <h2>Parcours scolaire</h2> 

@@ -4,7 +4,7 @@
         <h1>Mes hobbies</h1>
         <?php
             require_once("template_menu.php");
-            renderMenuToHTML("accueil");   
+            renderMenuToHTML("hobbies");   
             ?>
             <div class=element-flexible>
                 <h2>Gaming compétitif</h2> 
