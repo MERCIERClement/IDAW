@@ -12,8 +12,8 @@
                 </ul>
             </nav>    
             <div class="element-flexible">
-                <h2>Petit conseil du jour</h2> 
-                <p>Faites attention à la rue impaire</p>   
+                <h2>Bienvenue sur mon site</h2> 
+                <p>Naviguez entre les différents onglets pour en apprendre plus sur moi, mon parcours scolaire et mes hobbies</p>   
                 </div>
         </div>
     <?php
