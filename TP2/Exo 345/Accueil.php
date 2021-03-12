@@ -3,7 +3,6 @@
 ?>     
     <h1>Mon profil</h1>
         <p>Etudiant ingénieur informatique polyvalent / Appétance pour la gestion de projet</p>
-        <div class="container">
             <nav class="menu">
                 <ul>
                 <li><a id="currentpage" href="Accueil.php">Accueil</a></li>
@@ -15,7 +14,6 @@
                 <h2>Bienvenue sur mon site</h2> 
                 <p>Naviguez entre les différents onglets pour en apprendre plus sur moi, mon parcours scolaire et mes hobbies</p>   
                 </div>
-        </div>
     <?php
         require_once("template_footer.php");
 ?>

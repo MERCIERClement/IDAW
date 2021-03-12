@@ -2,7 +2,6 @@
     require_once("template_header.php");
 ?>  
         <h1>Mes hobbies</h1>
-        <div class=container>
             <nav class="menu">
                 <ul>
                 <li><a href="Accueil.php">Accueil</a></li>
@@ -16,7 +15,6 @@
                 <h2>Pop culture</h2>
                 <p>Anime, musique</p>
             </div>
-        </div>
     <?php
         require_once("template_footer.php");
 ?>
