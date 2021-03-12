@@ -2,13 +2,7 @@
     require_once("template_header.php");
 ?>  
         <h1>Mon CV</h1>
-            <nav class="menu">
-                <ul>
-                <li><a href="Accueil.php">Accueil</a></li>
-                <li><a id="currentpage" href="CV.php">CV</a></li>
-                <li><a href="Hobbies.php">Hobbies</a></li>
-                </ul>
-            </nav>    
+        <?php require_once("template_menu.php")?>
             <div class="element-flexible">
                 <h2>Parcours scolaire</h2> 
                 <h3>IMT Lille Douai</h3>
