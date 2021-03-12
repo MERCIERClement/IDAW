@@ -2,7 +2,6 @@
     require_once("template_header.php");
 ?>  
         <h1>Mon CV</h1>
-        <div class="container">
             <nav class="menu">
                 <ul>
                 <li><a href="Accueil.php">Accueil</a></li>
@@ -21,7 +20,7 @@
                 <h3>Collège Jacques Prévert Caudry</h3>
                 <p>Brevet mention très bien</p>
                 </div>
-        </div>
+
         <?php
         require_once("template_footer.php");
 ?>
