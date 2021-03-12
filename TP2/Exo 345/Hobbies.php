@@ -2,7 +2,10 @@
     require_once("template_header.php");
 ?>  
         <h1>Mes hobbies</h1>
-        <?php require_once("template_menu.php")?>
+        <?php
+            require_once("template_menu.php");
+            renderMenuToHTML("accueil");   
+            ?>
             <div class=element-flexible>
                 <h2>Gaming compétitif</h2> 
                 <p>Permanent improving, remise en question</p>   
