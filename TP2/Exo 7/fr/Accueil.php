@@ -1,16 +1,22 @@
 <?php
     require_once("template_header.php");
     require_once("template_menu.php");
-    $currentPageId = "accueil.php?page=accueil";
+    $currentPageId = "accueil";
     if(isset($_GET['page'])) {
         $currentPageId = $_GET['page'];
+    }
+    if(isset($_GET['lang'])) {
+        $currentPageLang = $_GET['lang'];   
+    } 
+    else {
+        $currentPageLang = 'fr';
     }
 ?>
 <header class="bandeau_haut">
     <h1 class="titre">Clément Mercier</h1>
 </header>
 <?php
-    renderMenuToHTML($currentPageId);
+    renderMenuToHTML($currentPageId,$currentPageLang);
 ?>
 <section class="corps">
 <?php

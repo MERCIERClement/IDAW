@@ -1,7 +1,7 @@
 <?php
     require_once("template_header.php");
     require_once("template_menu.php");
-    $currentPageId = 'hobbies';
+    $currentPageId = "accueil";
     if(isset($_GET['page'])) {
         $currentPageId = $_GET['page'];
     }
@@ -9,11 +9,11 @@
         $currentPageLang = $_GET['lang'];   
     } 
     else {
-        $currentPageLang = 'fr';
+        $currentPageLang = 'en';
     }
 ?>
 <header class="bandeau_haut">
-    <h1 class="titre">Mes hobbies</h1>
+    <h1 class="titre">Clément Mercier</h1>
 </header>
 <?php
     renderMenuToHTML($currentPageId,$currentPageLang);
@@ -26,10 +26,8 @@
     else
         require_once("error.php");
 ?>
-    <h2>Gaming compétitif</h2> 
-    <p>Permanent improving, remise en question</p>   
-    <h2>Pop culture</h2>
-    <p>Anime, musique</p>
+    <h2>Welcome on my webiste</h2> 
+                <p>Go through the differents tabs to know me</p>
 </section>
     <?php
         require_once("template_footer.php");

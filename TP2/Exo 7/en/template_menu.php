@@ -1,12 +1,12 @@
 <?php
     function renderMenuToHTML($currentPageId,$currentPageLang) {
         $mymenu = array(
-            "accueil" => array("Accueil"),
-            "cv" => array("CV"),
+            "accueil" => array("Home"),
+            "cv" => array("Resume"),
             "hobbies" => array("Hobbies")
         );
         echo 
-        "<a href=../en/".$currentPageId.".php?page=".$currentPageId."&lang=fr>English</a>
+        "<a href=../fr/".$currentPageId.".php?page=".$currentPageId."&lang=fr>Français</a>
         <nav class='menu'>
         <ul>";
         foreach($mymenu as $pageId => $pageParameters) {

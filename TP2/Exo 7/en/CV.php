@@ -1,7 +1,7 @@
 <?php
     require_once("template_header.php");
     require_once("template_menu.php");
-    $currentPageId = 'hobbies';
+    $currentPageId = 'cv';
     if(isset($_GET['page'])) {
         $currentPageId = $_GET['page'];
     }
@@ -9,11 +9,11 @@
         $currentPageLang = $_GET['lang'];   
     } 
     else {
-        $currentPageLang = 'fr';
+        $currentPageLang = 'en';
     }
 ?>
 <header class="bandeau_haut">
-    <h1 class="titre">Mes hobbies</h1>
+    <h1 class="titre">My Resume</h1>
 </header>
 <?php
     renderMenuToHTML($currentPageId,$currentPageLang);
@@ -26,10 +26,15 @@
     else
         require_once("error.php");
 ?>
-    <h2>Gaming compétitif</h2> 
-    <p>Permanent improving, remise en question</p>   
-    <h2>Pop culture</h2>
-    <p>Anime, musique</p>
+    <h2>Academic Background</h2> 
+    <h3>IMT Lille Douai</h3>
+    <p>Computer engineering student / Project Management<p>
+    <h3>Lycée Henri Wallon - Valenciennes</h3>
+    <p>Prepatory Classes MPSI/MP 2017-2019</p>   
+    <h3>Lycée Fénélon - Cambrai</h2>
+    <p>BAC S Spé Maths 17.27</p>
+    <h3>Collège Jacques Prévert Caudry</h3>
+    <p>Certificate 17/20</p>
 </section>
     <?php
         require_once("template_footer.php");

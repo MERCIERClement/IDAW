@@ -9,7 +9,7 @@
         $currentPageLang = $_GET['lang'];   
     } 
     else {
-        $currentPageLang = 'fr';
+        $currentPageLang = 'en';
     }
 ?>
 <header class="bandeau_haut">
@@ -27,9 +27,9 @@
         require_once("error.php");
 ?>
     <h2>Gaming compétitif</h2> 
-    <p>Permanent improving, remise en question</p>   
+    <p>Permanent improving, questionning myself to reach higher peaks</p>   
     <h2>Pop culture</h2>
-    <p>Anime, musique</p>
+    <p>Anime, music</p>
 </section>
     <?php
         require_once("template_footer.php");
