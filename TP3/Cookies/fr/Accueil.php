@@ -29,6 +29,7 @@
 <section class="corps">
 <?php
     $pageToInclude = $currentPageId . ".php";
+    echo $pageToInclude;
     if(is_readable($pageToInclude))
         require_once($pageToInclude);
     else

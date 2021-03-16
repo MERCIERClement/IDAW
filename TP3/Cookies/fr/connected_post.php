@@ -2,7 +2,7 @@
     $users = array(
         'riri' => 'fifi',
         'yoda' => 'maitrejedi');
-    $login="anonymours";
+    $login="anonymous";
     $errorText = "";
     $successfullyLogged = false;
 
