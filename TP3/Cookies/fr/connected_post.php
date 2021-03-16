@@ -20,7 +20,8 @@
     if(!$successfullyLogged) {
         echo $errorText;
     } else {
-        echo "<h1>Bienvenue ".$login."</h1>";
+        session_start();
+        $_SESSION['login'] = $tryLogin;
     }
     require_once('accueil.php')
 ?>

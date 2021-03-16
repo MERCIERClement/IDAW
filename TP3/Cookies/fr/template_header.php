@@ -21,3 +21,12 @@
         ?>
     </head>
     <body>
+        <?php 
+            if (session_status() == 2) {
+                echo "Bienvenue". $_SESSION['login'];
+            }
+            else 
+            session_start(); 
+            if(isset($_SESSION['login'])) {
+            echo "Bienvenue ".$_SESSION['login'];
+        } ?>
