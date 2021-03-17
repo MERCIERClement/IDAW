@@ -5,7 +5,7 @@
         <?php
         if(isset($_GET['css'])) {
             $cssStyle = $_GET['css'];
-            setcookie('cssstyle',$cssStyle);
+            setcookie('cssstyle',$cssStyle,$path='/IDAW/TP3/Cookies');
             echo "<link rel='stylesheet' href='".$cssStyle.".css' type='text/css'
             media='screen' title='default' charset='UTF-8' />";
         } else 
@@ -21,3 +21,12 @@
         ?>
     </head>
     <body>
+        <?php 
+            if (session_status() == 2) {
+                echo "Bienvenue". $_SESSION['login'];
+            }
+            else 
+            session_start(); 
+            if(isset($_SESSION['login'])) {
+            echo "Welcome ".$_SESSION['login'];
+        } ?>

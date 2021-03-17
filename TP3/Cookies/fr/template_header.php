@@ -5,7 +5,7 @@
         <?php
         if(isset($_GET['css'])) {
             $cssStyle = $_GET['css'];
-            setcookie('cssstyle',$cssStyle);
+            setcookie('cssstyle',$cssStyle,$path="/IDAW/TP3/Cookies");
             echo "<link rel='stylesheet' href='".$cssStyle.".css' type='text/css'
             media='screen' title='default' charset='UTF-8' />";
         } else 
@@ -28,5 +28,6 @@
             else 
             session_start(); 
             if(isset($_SESSION['login'])) {
-            echo "Bienvenue ".$_SESSION['login'];
-        } ?>
+            echo "Bienvenu ".$_SESSION['login'];
+            echo "<a href='../deconnexion.php' target='_blank'>Déconnexion</a>";
+            } ?>

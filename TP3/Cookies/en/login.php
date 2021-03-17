@@ -5,12 +5,12 @@
      <td><input type="next" name="login"></td>
    </tr>
 <tr>
-<th>Mot de passe :</th>
+<th>Password :</th>
 <td><input type="password" name="password"></td>
 </tr>
 <tr>
 <th></th>
-<td><input type="submit" value="Se connecter..." /></td>
+<td><input type="submit" value="Connection..." /></td>
 </tr>
 </table>
 </form>
