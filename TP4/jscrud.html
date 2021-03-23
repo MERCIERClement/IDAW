@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CRUD TP4 de Web Dev'</title>
+        <meta charset = "UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <table>
+            <tr>
+                <td>
+                    <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off"> 
+                        <div>
+                            <label>Prénom</label>
+                            <input type="text" name="prenom" id="prenom">
+                        </div>
+                        <div>
+                            <label>Nom</label>
+                            <input type="text" name="nom" id="nom">
+                        </div>
+                        <div>
+                            <label>Adresse Mail</label>
+                            <input type="text" name="adresseMail" id="adresseMail">
+                        </div>
+                        <div>
+                            <label>Téléphone</label>
+                            <input type="text" name="telephone" id="telephone">
+                        </div>
+                        <div class="bouton-du-form">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <table class="liste" id="listedecontact">
+                        <thead>
+                            <tr>
+                                <th>Prénom</th>
+                                <th>Nom</th>
+                                <th>Adresse Mail</th>
+                                <th>Téléphone</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>
