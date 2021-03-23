@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    <title>Clément Mercier</title>
         <?php
         if(isset($_GET['css'])) {
             $cssStyle = $_GET['css'];
@@ -19,8 +15,12 @@
             media='screen' title='default' charset='UTF-8' />";
             }       
         ?>
-    </head>
-    <body>
+        <!DOCTYPE html>
+    <html>
+        <head>
+        <title>Clément Mercier</title>
+        </head>
+        <body>
         <?php 
             if (session_status() == 2) {
                 echo "Bienvenue". $_SESSION['login'];

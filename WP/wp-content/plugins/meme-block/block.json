@@ -1,0 +1,100 @@
+{
+  "name": "meme-block/meme-block",
+  "title": "Meme Block",
+  "category": "media",
+  "icon": "no",
+  "description": "One does not simply not know what is a meme block.",
+  "keywords": [
+    "meme",
+    "text",
+    "image"
+  ],
+  "attributes": {
+    "memeType": {
+      "type": "string",
+      "default": "61579"
+    },
+    "alignType": {
+      "type": "text",
+      "default": "default"
+    },
+    "topText": {
+      "type": "array",
+      "source": "children",
+      "selector": "h3.meme-block-top-text"
+    },
+    "bottomText": {
+      "type": "array",
+      "source": "children",
+      "selector": "h3.meme-block-bottom-text"
+    },
+    "topTextAlignment": {
+      "type": "string",
+      "default": "center"
+    },
+    "bottomTextAlignment": {
+      "type": "string",
+      "default": "center"
+    },
+    "padding": {
+      "type": "number",
+      "default": 20
+    },
+    "topTextColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "topTextFsDesktop": {
+      "type": "number",
+      "default": 30
+    },
+    "topTextFsTablet": {
+      "type": "number",
+      "default": 20
+    },
+    "topTextFsMobile": {
+      "type": "number",
+      "default": 10
+    },
+    "topTextTop": {
+      "type": "number",
+      "default": 1
+    },
+    "topTextLeft": {
+      "type": "number",
+      "default": 1
+    },
+    "topTextWidth": {
+      "type": "number",
+      "default": 100
+    },
+    "bottomTextColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "bottomTextFsDesktop": {
+      "type": "number",
+      "default": 30
+    },
+    "bottomTextFsTablet": {
+      "type": "number",
+      "default": 20
+    },
+    "bottomTextFsMobile": {
+      "type": "number",
+      "default": 10
+    },
+    "bottomTextTop": {
+      "type": "number",
+      "default": 50
+    },
+    "bottomTextLeft": {
+      "type": "number",
+      "default": 1
+    },
+    "bottomTextWidth": {
+      "type": "number",
+      "default": 100
+    }
+  }
+}
